@@ -83,3 +83,15 @@ footer {
   font-size: 0.8rem;
   color: #888;
 }
+article a {
+  display: inline-block;    /* keeps it under the paragraph */
+  margin-top: 0.5rem;       /* adds spacing */
+  color: var(--olive);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+article a:hover {
+  color: var(--gold);
+}
+
