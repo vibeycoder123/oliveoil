@@ -1,0 +1,85 @@
+/* -----------------------------
+   Olive & Quiet Blog - Homepage
+----------------------------- */
+
+/* Color palette */
+:root {
+  --cream: #FAF9F6;      /* background */
+  --charcoal: #2E2E2C;   /* text */
+  --olive: #6B7F5C;      /* links / accents */
+  --gold: #C9A44C;       /* hover accent */
+  --stone: #DAD7D0;      /* borders / dividers */
+}
+
+/* Base styles */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--cream);
+  color: var(--charcoal);
+  margin: 0;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 4rem 1.5rem 2rem;
+}
+
+header h1 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+header p {
+  color: var(--olive);
+  font-size: 0.95rem;
+}
+
+/* Main content / posts */
+main {
+  max-width: 720px;
+  margin: auto;
+  padding: 3rem 1.5rem;
+}
+
+article {
+  margin-bottom: 3.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--stone);
+}
+
+article h2 {
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+
+article p {
+  max-width: 95%;
+}
+
+/* Links */
+a {
+  color: var(--olive);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--gold);
+}
+
+/* Post dates */
+.date {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 0.8rem;
+  color: #888;
+}
