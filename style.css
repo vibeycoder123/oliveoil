@@ -1,14 +1,14 @@
 /* -----------------------------
-   Olive & Quiet Blog - Homepage
+   Oilive It - Homepage
 ----------------------------- */
 
 /* Color palette */
 :root {
-  --cream: #FAF9F6;      /* background */
-  --charcoal: #2E2E2C;   /* text */
-  --olive: #6B7F5C;      /* links / accents */
-  --gold: #C9A44C;       /* hover accent */
-  --stone: #DAD7D0;      /* borders / dividers */
+  --cream: #FAF9F6;
+  --charcoal: #2E2E2C;
+  --olive: #6B7F5C;
+  --gold: #C9A44C;
+  --stone: #DAD7D0;
 }
 
 /* Base styles */
@@ -59,14 +59,16 @@ article p {
   max-width: 95%;
 }
 
-/* Links */
-a {
+/* Read more link */
+article a {
+  display: inline-block;
+  margin-top: 0.5rem;
   color: var(--olive);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-a:hover {
+article a:hover {
   color: var(--gold);
 }
 
@@ -83,15 +85,3 @@ footer {
   font-size: 0.8rem;
   color: #888;
 }
-article a {
-  display: inline-block;    /* keeps it under the paragraph */
-  margin-top: 0.5rem;       /* adds spacing */
-  color: var(--olive);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-article a:hover {
-  color: var(--gold);
-}
-
